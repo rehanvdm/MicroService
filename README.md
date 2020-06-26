@@ -12,7 +12,7 @@ The micro services are defined in these repos:
 
 
 ## White board diagram
-![Alt text](images\MicroService-Overview.png?raw=true "Part 1 - System overview")
+![Alt text](images/MicroService-Overview.png?raw=true "Part 1 - System overview")
 
 
 Each service has an OpenAPI definition:
@@ -22,8 +22,8 @@ Each service has an OpenAPI definition:
 
 
 The focus path that we focus on: 
-![Alt text](images\MicroService-FocusPath.png?raw=true "Part 1 - Focus path for presentation & blog")
+![Alt text](images/MicroService-FocusPath.png?raw=true "Part 1 - Focus path for presentation & blog")
 
 
 Part 2 will focus on reducing the coupling between service and will produce an architecture similar to below (coming soon).
-![Alt text](images\MicroService-Part2.png?raw=true "Part 2 - Coming soon!")
+![Alt text](images/MicroService-Part2.png?raw=true "Part 2 - Coming soon!")
