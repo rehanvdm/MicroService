@@ -11,9 +11,9 @@ example this way to illustrate my point. The major problem being that we created
 We remove API GW, use Amazon Event Bridge and implement BASE consistency in the system to truly decouple our microservices.
                                
 
-# Part 1
+# Part 1 - AWS Serverless: you might not need third party monitoring
 
-This code is accompanied by this blog post: https://www.rehanvdm.com/general/aws-serverless-you-might-not-need-third-party-monitoring/index.html
+The code is accompanied by this blog post: https://www.rehanvdm.com/general/aws-serverless-you-might-not-need-third-party-monitoring/index.html
  > I hardly ever find myself reaching for third party monitoring services these days. I rather use the AWS native observability, monitoring and alerting services. The primary reasons being that I can use my favorite Infrastructure as Code (IaC) tool to define the infrastructure as well as the monitoring, observability and dashboards for every project in one place. I also only pay for what I use; there are no monthly subscriptions.
 
 The micro services are defined in these repos:
@@ -35,9 +35,9 @@ Each service has an OpenAPI definition:
 Focusing on the person create path: 
 ![Alt text](images/MicroService-FocusPath.png?raw=true "Part 1 - Focus path for presentation & blog")
 
-# Part 2
+# Part 2 - Refactoring a distributed monolith to microservices
 
-This code is accompanied by this blog post: https://www.rehanvdm.com/serverless/refactoring-a-distributed-monolith-to-microservices/index.html
+The code is accompanied by this blog post: https://www.rehanvdm.com/serverless/refactoring-a-distributed-monolith-to-microservices/index.html
 > This article documents the thought process and steps involved in refactoring a distributed monolith to microservices. We are going to remove API GW, use Amazon Event Bridge and implement BASE consistency in the system to truly decouple our microservices.
 >
 The micro services are defined in these repos:
